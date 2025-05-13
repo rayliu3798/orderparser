@@ -12,14 +12,6 @@ A Java program that processes order data from JSON files, validates product pric
 - Supports parallel processing for better performance
 - Thread-safe data structures for concurrent operations
 
-## Prerequisites
-
-- Java 11 or higher
-- Required Jackson libraries (for JSON processing):
-  - jackson-databind-2.19.0.jar
-  - jackson-core-2.19.0.jar
-  - jackson-annotations-2.19.0.jar
-
 ## Project Structure
 
 ```
