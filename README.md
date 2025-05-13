@@ -1,6 +1,7 @@
 # Order Parser
 
-A Java program that processes order data from JSON files, validates product prices, calculates totals, and generates detailed reports.
+A Java program made for the assignment from Pandell. 
+
 
 ## Features
 
@@ -9,8 +10,11 @@ A Java program that processes order data from JSON files, validates product pric
 - Calculates order totals and overall revenue
 - Tracks product quantities across all orders
 - Generates detailed order reports
-- Supports parallel processing for better performance
-- Thread-safe data structures for concurrent operations
+- Multi-thread processing for better performance
+
+## Program Description
+To get the total costs of individual orders, the quantity and price for each product needs to be stored. A hashmap is created between the product name and quantity to update the quantity when processing the order. A second hashmap is created between the product name and price, in order to report an error when the same product has a different price. It's probably an overkill and could potentially slow down the code, but inconsistent price could cause issues when calculating the total avenue, hence this feature is implemented. In terms of performance, ConcurrentHashMap and Stream are used to process the orders in parallel. For the final output, the program prints the outputs as well as generates the outputs as files.
+
 
 ## Project Structure
 
