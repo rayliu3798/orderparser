@@ -63,7 +63,7 @@ If you prefer using Maven, a `pom.xml` is included. Use these commands:
 mvn clean package
 
 # Run
-java -jar target/orderparser-1.0-SNAPSHOT.jar input.json
+java -jar target/orderparser-1.0.0.jar input.json
 ```
 
 
