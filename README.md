@@ -28,7 +28,7 @@ orderparser/
   │   ├── Main.java          # Main program
   │   ├── Order.java         # Order class
   │   └── Item.java          # Item class
-  └── README.md              # This file
+  └── README.md              
 ```
 
 ## Compilation
