@@ -1,0 +1,55 @@
+[
+
+{
+
+"orderId": "1001",
+
+"customer": "Alice",
+
+"items": [
+
+{"product": "Widget", "quantity": 2, "price": 10.0},
+
+{"product": "Gadget", "quantity": 1, "price": 15.0}
+
+],
+
+"status": "shipped"
+
+},
+
+{
+
+"orderId": "1002",
+
+"customer": "Bob",
+
+"items": [
+
+{"product": "Widget", "quantity": 1, "price": 10.0}
+
+],
+
+"status": "pending"
+
+},
+
+  {
+    "orderId": "1003",
+    "customer": "Mike",
+    "items": [
+      {
+        "product": "toy",
+        "quantity": 5,
+        "price": 3.0
+      },
+      {
+        "product": "Gadget",
+        "quantity": 2,
+        "price": 15.0
+      }
+    ],
+    "status": "shipped"
+  }
+
+]
